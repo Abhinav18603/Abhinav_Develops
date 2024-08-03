@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Initialize FontAwesome if not included via CDN
+    
     if (typeof FontAwesome === 'undefined') {
         const script = document.createElement('script');
         script.src = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js';
@@ -16,13 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
         navbar.classList.toggle('active');
     });
 
-    // Initialize Swiper for Courses
+    // Initializing Swiper for Courses
     new Swiper('.course-slider', {
         spaceBetween: 20,
         grabCursor: true,
         loop: true,
         pagination: {
-            el: '.swiper-pagination', // Corrected pagination selector
+            el: '.swiper-pagination', 
             clickable: true,
         },
         breakpoints: {
@@ -38,13 +38,13 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     });
 
-    // Initialize Swiper for Teachers
+    // Initializing Swiper for Teachers
     new Swiper('.teachers-slider', {
         spaceBetween: 20,
         grabCursor: true,
         loop: true,
         pagination: {
-            el: '.swiper-pagination', // Corrected pagination selector
+            el: '.swiper-pagination', 
             clickable: true,
         },
         breakpoints: {
@@ -60,13 +60,13 @@ document.addEventListener('DOMContentLoaded', () => {
         },
     });
 
-    // Initialize Swiper for Reviews
+    // Initializing Swiper for Reviews
     new Swiper('.reviews-slider', {
         spaceBetween: 20,
         grabCursor: true,
         loop: true,
         pagination: {
-            el: '.swiper-pagination', // Corrected pagination selector
+            el: '.swiper-pagination', 
             clickable: true,
         },
         breakpoints: {
