@@ -7,7 +7,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-// Highlight active section in navbar
+// Highlighting active section in navbar
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -45,7 +45,7 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact 
 ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-// Initialize Typed.js for .multiple-text
+// Initializing Typed.js for .multiple-text
 const typed = new Typed('.multiple-text', {
     strings: ['Front End Developer', 'Web Designer', 'UI/UX Designer'],
     typeSpeed: 70,
